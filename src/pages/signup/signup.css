@@ -1,0 +1,235 @@
+.mainSection{
+    width: 100vw;
+    height: 110vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+}
+
+.mainDiv{
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 85%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around;
+    align-items: center; */
+    border-radius: 8px;
+    border: 1px solid #dadce0;
+}
+
+.inputDiv{
+    /* border: 1px solid red; */
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+.inputBoxDiv{
+    /* border: 1px solid red; */
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-left: 5px; */
+}
+
+.fundooName{
+    display: flex;
+    width: 90%;
+}
+
+.pTagText{
+    display: flex;
+    width: 90%;    
+}
+
+.spanText{
+    display: flex;
+    width: 90%;     
+}
+
+.checkboxClass{
+    display: flex;
+    width: 90%;    
+}
+
+.inputText{
+    width: 48%;
+    height: 25px;
+}
+
+#inputDivUsername{
+    /* border: 1px soild red; */
+    width: 100%;
+}
+
+.inputUsername{
+    /* border: 1px soild red; */
+    width: 90%;
+    height: 25px;
+}
+
+.buttonDiv{
+    /* border: 1px solid red; */
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgMain{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .mainSection{
+        width: 100vw;
+        height: 120vh;
+    }
+
+    .imgMain{
+        display: none;
+    }
+
+    .mainDiv{
+        width: 100%;
+        height: 95%;
+        border: none;   
+    }
+
+    .inputDiv{
+        width: 100%;
+        height: 100%;
+    }
+
+    .inputBoxDiv{
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        width: 88%;
+        height: 18%;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .inputText{
+        width: 95%;
+        height: 40%;
+    }
+
+    #inputDivUsername{
+        /* border: 1px solid red; */
+        width: 88%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .inputUsername{
+        width: 95%;
+        height: 5%;   
+    }
+
+    .spanText{
+        width: 88%;    
+    }
+
+    .checkboxClass{
+        width: 88%;   
+    }
+
+    .buttonDiv{
+        /* border: 1px solid red;     */
+        width: 85%;
+    }
+
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .mainSection{
+        width: 100vw;
+        height: 120vh;
+    }
+
+    .imgMain{
+        display: none;
+    }
+
+    .mainDiv{
+        width: 100%;
+        height: 80%;
+        border: none;   
+    }
+
+    .inputDiv{
+        width: 100%;
+        height: 100%;
+    }
+
+    .inputBoxDiv{
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        width: 88%;
+        height: 18%;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .inputText{
+        width: 95%;
+        height: 40%;
+    }
+
+    #inputDivUsername{
+        /* border: 1px solid red; */
+        width: 88%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .inputUsername{
+        width: 95%;
+        height: 5%;   
+    }
+
+    .spanText{
+        width: 88%;    
+    }
+
+    .checkboxClass{
+        width: 88%;   
+    }
+
+    .buttonDiv{
+        /* border: 1px solid red;     */
+        width: 85%;
+    }
+} 
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .imgMain{
+        display: none;
+    }
+
+    .mainDiv{
+        width: 70%;
+        height: 70%;  
+    }
+
+    .inputDiv{
+        width: 98%;
+        height: 90%;
+    }
+}

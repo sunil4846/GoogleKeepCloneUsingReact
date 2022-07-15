@@ -1,0 +1,87 @@
+.takeNoteThree{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* width: 100vw; */
+}
+.divTakeThree1{
+    /* border: 1px solid red; */
+    width: 25vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    border: 1px solid rgb(230, 227, 227);
+    box-shadow: 5px 5px 10px #888888;
+    border-radius: 8px;
+    /* color: black; */
+}
+
+.inputTakeThreeDiv1{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* color: black; */
+}
+
+.inputTakeThreeDiv2{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+    /* color: black; */
+}
+
+.iconDivTakeThree{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.allIconsTakeThree{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.iconsTakeThreeUpdate{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.iconDivTakeThreeUpdate{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#inputTakeThreeDiv1{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+}
